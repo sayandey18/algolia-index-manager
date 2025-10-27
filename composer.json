@@ -1,0 +1,32 @@
+{
+    "name": "sayandey18/algolia-index-manager",
+    "description": "Easily manage, and sync your Algolia search indexes directly from your WordPress dashboard. No coding required! It's fast, secure, and fully automated!",
+    "version": "1.0.0",
+    "type": "wordpress-plugin",
+    "license": "GPL v2 or later",
+    "authors": [
+        {
+            "name": "Sayan",
+            "email": "mr.sayandey18@outlook.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sayandey18/algolia-index-manager/issues",
+        "source": "https://github.com/sayandey18/algolia-index-manager"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "includes/vendor",
+        "allow-plugins": {
+            "composer/installers": true
+        },
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^2.3",
+        "algolia/algoliasearch-client-php": "^3.4"
+    }
+}

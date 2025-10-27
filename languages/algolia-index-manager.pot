@@ -1,0 +1,104 @@
+# Copyright (C) 2025 Sayan Dey
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Algolia Index Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/algolia-index-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-26T15:35:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: algolia-index-manager\n"
+
+#. Plugin Name of the plugin
+#: algolia-index-manager.php
+#: admin/class-aim-admin.php:22
+#: admin/partials/class-aim-admin-settings.php:11
+msgid "Algolia Index Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: algolia-index-manager.php
+msgid "https://github.com/sayandey18/algolia-index-manager"
+msgstr ""
+
+#. Description of the plugin
+#: algolia-index-manager.php
+msgid "Easily manage, sync, and optimize your Algolia search indexes directly from your WordPress dashboard. No coding required! It's fast, secure, and fully automated!"
+msgstr ""
+
+#. Author of the plugin
+#: algolia-index-manager.php
+msgid "Sayan Dey"
+msgstr ""
+
+#. Author URI of the plugin
+#: algolia-index-manager.php
+msgid "https://github.com/sayandey18"
+msgstr ""
+
+#: admin/class-aim-admin.php:23
+msgid "Algolia Manager"
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:13
+msgid "Configure your Algolia account credentials. You can find them in the <a href=\"https://dashboard.algolia.com/account/api-keys/all\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">API Keys</a> section of your Algolia dashboard."
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:19
+msgid "Once you provide your Algolia Application ID and API key, this plugin will be able to securely communicate with Algolia servers. <br /> We ensure your information is correct by testing them against the Algolia servers upon save."
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:25
+msgid "You can add your Algolia credentials here or in the <code>wp-config.php</code> file. "
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:34
+msgid "Application ID"
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:44
+msgid "Search API Key"
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:54
+msgid "Write API Key"
+msgstr ""
+
+#: admin/partials/class-aim-admin-settings.php:64
+msgid "Indice Prefix"
+msgstr ""
+
+#: includes/class-aim-handler.php:18
+#: includes/class-aim-handler.php:88
+#: includes/class-aim-handler.php:129
+msgid "Post type not allowed as indice"
+msgstr ""
+
+#: includes/class-aim-handler.php:142
+msgid "Indice not found"
+msgstr ""
+
+#: includes/class-aim-tools.php:54
+msgid "Algolia Index Manager: Please configure your Algolia credentials in the settings page."
+msgstr ""
+
+#: public/restapi/class-aim-public-apis.php:86
+msgid "Indice reindexed successfully"
+msgstr ""
+
+#: public/restapi/class-aim-public-apis.php:92
+msgid "Failed to reindex indice"
+msgstr ""
+
+#: public/restapi/class-aim-public-apis.php:112
+msgid "Post indexed successfully"
+msgstr ""
+
+#: public/restapi/class-aim-public-apis.php:118
+msgid "Failed to index post"
+msgstr ""
